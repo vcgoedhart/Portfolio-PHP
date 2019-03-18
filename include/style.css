@@ -1,0 +1,83 @@
+.animRotate {
+	transition: transform ease 0.85s;
+}
+
+.animRotate:hover {
+	transform: rotate(-1deg) translateY(-6px);
+}
+
+.animZoom {
+	position: relative;
+	transition: transform ease 1s;
+	z-index: 0;
+}
+
+.animZoom:hover {
+	transform: scale(1.03);
+}
+
+.dropdown-menu a {
+	opacity: 0.6;
+}
+
+footer {
+	position: relative;
+	z-index: 10;
+}
+
+footer i {
+	font-size: 2rem;
+	transition: transform ease 0.3s;
+}
+
+footer i:hover {
+	transform: rotate(5deg);
+}
+
+@media (min-width: 320px){
+	html {
+		font-size: 0.8rem;
+	}
+	.carousel-caption > h1 {
+		font-size: 1.5rem;
+	}
+	.carousel-item > div {
+		height: 89.5vh;
+	}
+	#werk {
+		text-align: center;
+	}
+}
+
+@media (min-width: 768px){
+	html {
+		font-size: 0.65rem;
+	}
+	.carousel-caption > h1 {
+		font-size: 2.5rem;
+	}
+	#werk {
+		text-align: left;
+	}
+}
+
+@media (min-width: 992px){
+	html {
+		font-size: 0.9rem;
+	}
+	.carousel-caption > h1 {
+		font-size: 2.5rem;
+	}
+}
+
+@media (min-width: 1200px){
+	html {
+		font-size: 1.1rem;
+	}
+	.carousel-caption > h1 {
+		font-size: 2.5rem;
+	}
+	.carousel-item > div {
+		height: 92vh;
+	}
+}
